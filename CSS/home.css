@@ -1,0 +1,134 @@
+.container {
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+.pink-text {
+  color: #ef9a9a;
+  font-family: "Over the Rainbow", cursive;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.header-container {
+  height: 38.5em;
+}
+.download {
+  text-decoration: none;
+  background: #ef9a9a;
+  color: #212121;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+.nav-item {
+  list-style-type: none;
+  width: 70px;
+}
+.nav-item a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  color: #ef9a9a;
+}
+#cover {
+  background: linear-gradient(rgba(141, 153, 174, 0.6), rgba(141, 153, 174, 0.5)),
+    url(../Images/cover3.jpg) no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 38.5em;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 7em;
+  color: #ef9a9a;
+  color: #212121;
+}
+.name a {
+  font-family: "Over the Rainbow", cursive;
+  font-size: 7em;
+  color: #ef9a9a;
+  text-decoration: none;
+}
+.name :hover {
+  color: #212121;
+}
+.job-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  color: #e0e0e0;
+}
+.about-container {
+  width: 90%;
+  height: 38.5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-img-container {
+  width: 10em;
+  height: 25em;
+  width: 30%;
+}
+#profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+.profile-social {
+  margin-top: 1em;
+}
+.brief-container {
+  width: 50%;
+  font-size: 1.3em;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.social-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3em;
+}
+.social-container a {
+  color: #ef9a9a;
+  font-size: 2em;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30em;
+  transform-origin: center top;
+  transform: rotate(-3deg);
+  background: #ffcdd2;
+  width: 100%;
+}
+
+.contact h2 {
+  color: #212121;
+  font-family: "Over the Rainbow", cursive;
+  font-size: 2.2em;
+}
